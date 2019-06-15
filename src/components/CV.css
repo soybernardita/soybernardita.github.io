@@ -1,0 +1,82 @@
+#canvas {margin:auto; max-width: 1024px; }
+.carousel {width: 100%;margin:auto; padding: 2% 5% 2% 5%; vertical-align: middle; background-color: white;}
+.carouselContent {height:100%; width: 100%; background-color: white; margin:0;}
+hr {padding: 0 5% 0 5%;width: 70%;}
+
+#myself {display:inline-block;}
+#photo {max-width:30%;height:auto; margin: auto;}
+#title {float: right; clear: both;width: 65%; margin:2% 0 0 2%;}
+#name {font-size:18pt;margin:0;}
+#job {font-size:14pt;}
+
+.item {width:100%;padding: 5% 5% 0% 5%;display: inline-block;margin:0;}
+.itemImage {width:10%; float:left; }
+.itemText {width:90%;margin: 2% 0 2% 0%;display: inline-block;text-align: left;}
+.itemTitle {font-size:14pt;width: fit-content;margin:0;}
+.itemDate {font-size:12pt;width: fit-content;margin:0;font-style: italic;}
+.itemDescription {font-size:12pt;width: fit-content;margin:0;}
+
+#hobbies {width:100%;text-align: center;padding: 0% 10% 0 5%;}
+.hobbieImage {max-width:20%;height:auto;margin:3%;}
+
+#languages {display: inline-block;width:100%;}
+.languageItem {display: inline-block;margin: 0 2% 0 2%; }
+#bar {width:40%; margin: auto; }
+.languageName {font-size: 10pt; text-align: center;}
+
+.slider-wrapper {background-color: white; border:0px;}
+.axis-horizontal {background-color: white;border:0px;}
+.slider {background-color: white;border:0px;}
+.animated {background-color: white;border:0px;}
+.slide {background-color: white;border:0px;}
+.selected {background-color: white;border:0px;}
+
+.carousel .control-dots {
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    -webkit-padding-start: 0px;
+}
+
+.carousel .control-dots .dot {
+    -webkit-transition: opacity .25s ease-in;
+    -o-transition: opacity .25s ease-in;
+    transition: opacity .25s ease-in;
+    opacity: .3;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.9);
+    box-shadow: 1px 1px 2px rgba(0,0,0,.9);
+    background: #fff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    margin: 0 12px;
+}
+
+
+@media screen and (min-width: 768px){
+    .header li {font-size: 16pt;}
+    #name {font-size:32pt;margin:0;}
+    #job {font-size:24pt}
+    .header li {font-size: 24pt;}
+    .itemTitle {font-size:28pt;}
+    .itemDate {font-size:24pt;}
+    .itemDescription {font-size:18pt;}
+    .languageName {font-size: 24pt;}
+    .hobbieImage {max-width:96px;}
+    #photo {max-width:164px;}  
+}
+@media screen and (min-width: 1500px){
+    .header li {font-size: 24pt;}
+    #canvas {max-width: 1200px;}
+    #name {font-size:42pt;margin:0;}
+    #job {font-size:36pt}
+    .itemTitle {font-size:32pt;}
+    .itemDate {font-size:28pt;}
+    .itemDescription {font-size:24pt;}
+    .languageName {font-size: 24pt;}
+    .hobbieImage {max-width:96px;}
+    #photo {max-width:196px;}   
+}
